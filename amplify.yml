@@ -6,7 +6,7 @@ frontend:
         - npm install
         - npm run build
   artifacts:
-    baseDirectory: /build
+    baseDirectory: build
     files:
       - '**/*'
   cache:
